@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>FooDog</title>
+    <link href="assets/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
 </head>
 
 <body>
@@ -28,25 +28,25 @@
                         <a class="nav-link" href="#">Wellness</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Lifestyle</a>
+                        <a class="nav-link" href="#">Lifestyle</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Community</a>
+                        <a class="nav-link" href="#">Community</a>
                     </li>
                 </ul>
             </section>
-            <section class="col-md-3">
+            <section class="col-md-3" id="social-links">
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-search"></a>
                 </sect>
         </header>
         <!--END HEADER-->
 
-        <main>
+    <main>
         <!--START FIRST SECTION-->
-
+<!--
         <div class="row">
             <div class="col-md-6 offset-3">
 
@@ -88,56 +88,81 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--END FIRST SECTION-->
 
 
             <!-- SECTION 2-->
-            <section class="row">
+            <section class="row second-section">
                 <div class="col-md-6 offset-md-3">
                     <div class="row">
                         <div class="col-md-9">
+                            <h4>
+                                Featured posts 
+                            </h4>
                             <article class="row">
                                 <div class="col-md-6">
-                                    <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                                    <img class="img-fluid" alt="Bootstrap Image Preview" src="assets/img/dog-11.jpg" />
                                 </div>
                                 <div class="col-md-6">
+                                    <h5>
+                                        Featured nutrition
+                                    </h5>
                                     <h3>
-                                        h3. Lorem ipsum dolor sit amet.
+                                        Cooking for your dog? Watch out for these 
                                     </h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. 
+                                        So you've discovered the many issues with commercial pet food and have decided that a home cooked diet is
                                     </p>
+                                    <footer class="share-block">
+                                        <a class="fa fa-share share-link"></a>
+                                        <p class="share-text">Share</p>
+                                    </footer>
                                 </div>
                             </article>
                             <article class="row">
                                 <div class="col-md-6">
-                                    <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                                    <img class="img-fluid" alt="Bootstrap Image Preview" src="assets/img/dog-12.jpg" />
                                 </div>
                                 <div class="col-md-6">
+                                        <h5>
+                                                Featured nutrition
+                                        </h5>
                                     <h3>
-                                        h3. Lorem ipsum dolor sit amet.
+                                        Why you should be feeding your dog sardines
                                     </h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. 
+                                        I usually associate sardines with Garfield cartoons, but I have major news: That can of sardines that's been hiding in your
                                     </p>
+                                    <footer class="share-block">
+                                            <a class="fa fa-share share-link"></a>
+                                            <p class="share-text">Share</p>
+                                    </footer>
                                 </div>
                             </article>
                             <article class="row">
                                 <div class="col-md-6">
-                                    <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                                    <img class="img-fluid" alt="Bootstrap Image Preview" src="assets/img/dog-13.jpg" />
                                 </div>
                                 <div class="col-md-6">
+                                        <h5>
+                                                Featured wellness
+                                            </h5>
                                     <h3>
-                                        h3. Lorem ipsum dolor sit amet.
+                                        Why skinny dogs live longer
                                     </h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. 
+                                        We know you love every inch of your dog's body just the way it is, but pudge can become a
                                     </p>
+                                    <footer class="share-block">
+                                            <a class="fa fa-share share-link"></a>
+                                            <p class="share-text">Share</p>
+                                    </footer>
                                 </div>
                             </article>
                         </div>
-                        <div class="col-md-3">
+                        <section class="col-md-3" class="side-section">
+                            <!--
                             <ul class="list-unstyled">
                                 <li class="list-item">
                                     Lorem ipsum dolor sit amet
@@ -148,7 +173,24 @@
                                 <li class="list-item">
                                     Integer molestie lorem at massa
                                 </li>
-                            </ul><img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                            </ul> -->
+                            <article class="social-side">
+                                    <a href="#" class="fa fa-facebook"></a>
+
+                                
+                            </article>
+                            <article class="social-side">
+                                <div class="social-left">
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <p>
+                                </div>
+                                    
+                            </article>
+                            <article>
+                                    <a href="#" class="fa fa-instagram"></a>
+                            </article class="social-side">
+                            
+                            <img class="img-fluid" alt="Australian shepperd" src="assets/img/dog-15.jpg" />
                         </div>
                     </div>
                 </div>

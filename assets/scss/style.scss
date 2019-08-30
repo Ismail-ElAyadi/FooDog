@@ -1,0 +1,144 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+/**** FONT VARIABLES ****/
+$main-font: "Crimson Text", serif;
+$title-font: "Open Sans", sans-serif;
+$dark-font: #444444;
+$grey-font: #777171;
+$light-font: #d6d1d1;
+$orange-font: #f99639;
+$white-font: #fff;
+
+/**** GENERAL STYLE ****/
+
+body {
+  font-family: $main-font;
+  background-color: $white-font;
+}
+h1 {
+  margin: none;
+  color: $dark-font;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: $title-font;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h3 {
+  color: $dark-font;
+  font-size: 18px;
+}
+h4 {
+  color: $dark-font;
+  font-size: 15px;
+}
+h5 {
+  width: auto;
+  color: $orange-font;
+  font-size: 12px;
+  border-right: 1px solid $light-font;
+}
+p {
+  color: $grey-font;
+  font-size: 11px;
+}
+
+a {
+  color: $dark-font;
+}
+a:hover {
+  color: $dark-font;
+}
+img {
+  overflow: hidden;
+}
+
+/*********************** END GENERAL STYLE ***********************/
+/**** HEADER STYLE ****/
+
+header {
+  section:first-child {
+    padding: 50px 25px;
+      h1 {
+      color: $dark-font;
+      text-align: center;
+    }
+    /**** NAVIGATION BAR ****/
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+      color: $dark-font;
+      border: none;
+    }
+    .nav-tabs {
+      font-family: $title-font;
+      text-transform: uppercase;
+      font-size: 12px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-content: space-around;
+      border: none;
+      .nav-link {
+        padding: none;
+        border: none;
+        border-top-left-radius: none;
+        border-top-right-radius: none;
+      }
+      .nav-link:hover {
+        border: none;
+      }
+    }
+  }
+  /**** SOCIAL MEDIA LINKS *****/
+  #social-links {
+    display: flex;
+    flex: none;
+    justify-content: center;
+    padding: 50px 25px;
+    .fa {
+      padding: 5px;
+    }
+    .fa:hover {
+      text-decoration: none;
+    }
+    .fa.fa-instagram::before {
+      padding-right: 10px;
+      border-right: 1px solid $light-font;
+    }
+  }
+}
+
+/*********************** END HEADER STYLE ***********************/
+
+/**** SECOND SECTION ****/
+
+.second-section {
+  article {
+    padding-top: 25px;
+  }
+}
+
+/**** SHARE BLOCK ****/
+
+.share-block {
+  .share-link {
+    display: inline-block;
+    border: 1px solid $light-font;
+    padding: 3px;
+    border-radius: 50%;
+  }
+  .share-text {
+    display: inline-block;
+    border: none;
+    font-family: $title-font;
+    color: $light-font;
+    text-transform: uppercase;
+    margin: auto 0;
+  }
+}
+/**** SIDE SECTION ****/
+
+/*********************** END SECOND SECTION ***********************/
