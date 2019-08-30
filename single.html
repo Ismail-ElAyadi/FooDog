@@ -5,11 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
     <title>Single</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
@@ -17,7 +28,40 @@
     <div class="container-fluid">
         <!-- Header -->
         <header class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 header-justsa">
+                <div class="dropdown">
+                    <button role="button" type="button" class="btn btn-hamb" data-toggle="dropdown"
+                        id="dropdownMenuButton">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span> Foodog
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Nutrition</a>
+                        <a class="dropdown-item" href="#">Lifestyle</a>
+                        <a class="dropdown-item" href="#">Wellness</a>
+                        <a class="dropdown-item" href="#">Community</a>
+                    </div>
+                </div>
+                <div id="subscriptiondigest">
+                    <div class="input-group mb-3">
+                        <label for="email">Digest In Your Inbox</label>
+                        <input type="email" id="email" class="rounded-0" placeholder="Your email">
+                        <div class="input-group-append">
+                            <button id="btnSignUP" class="btn btn-dark rounded-0" type="button">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <img id="logotfd-search" src="assets/img/logo-tfd.png" alt="logo" class="image-fluid">
+                    <button type="button" class="btn border-0" data-toggle="modal" data-target="#infos"><span
+                            class="glyphicon glyphicon-search"></span></button>
+                    <div class="modal" id="infos">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <input type="search" placeholder="Entrez un mot-clef" name="the_search">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- Main -->
