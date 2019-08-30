@@ -1,0 +1,96 @@
+section.first {
+  background: yellow;
+}
+
+section.first article {
+  background: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.first article h6 {
+  font-family: "Open Sans", sans-serif;
+  color: red;
+  font-size: 13px;
+  text-align: center;
+}
+
+section.first article h1 {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 17px;
+}
+
+section.first article img {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #461919;
+}
+
+section.first article div.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: purple;
+}
+
+section.first article div.row div.col-md-4 img.logo-tfd {
+  background: yellow;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+}
+
+section.first article div.row div.col-md-4 p.ligne-inside-article {
+  font-size: 8px;
+  color: red;
+  font-family: "Open Sans", sans-serif;
+}
+
+section.first article div.row div.col-md-4 img.logo-comment {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+section.first article div.row div.col-md-4 a.fa-facebook {
+  color: white;
+  background: #3B5997;
+  height: 4px;
+  width: 4px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+section.first article div.row div.col-md-4 a.fa-twitter {
+  color: white;
+  background: #1DA1F2;
+  height: 4px;
+  width: 4px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+section.first article div.row div.col-md-4 a.fa-pinterest {
+  color: white;
+  background: #DD3C24;
+  height: 4px;
+  width: 4px;
+  text-align: center;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

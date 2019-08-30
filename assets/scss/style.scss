@@ -1,0 +1,120 @@
+$font1: 'Open Sans',
+sans-serif;
+$font2:'Crimson Text',
+serif;
+$cnt:center;
+
+@mixin font($font) {
+    font-family: $font;
+}
+
+
+section.first {
+    background: yellow;
+
+    article {
+        background: green;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h6 {
+            @include font($font1);
+            color: red;
+            font-size: 13px;
+            text-align: $cnt;
+        }
+
+        h1 {
+            @include font($font1);
+            color: black;
+            text-align: $cnt;
+            font-size: 17px;
+        }
+
+
+
+        img {
+            width: 80%;
+            margin: auto;
+            border: 1px solid rgb(70, 25, 25);
+
+        }
+
+        div.row {
+            flex-direction: row;
+            align-content: center;
+            justify-content: $cnt;
+            background: purple;
+
+
+            div.col-md-4 {
+                img.logo-tfd {
+                    background: yellow;
+                    height: 30px;
+                    width: 30px;
+                    margin: 0;
+                }
+
+                p.ligne-inside-article {
+                    font-size: 8px;
+                    color: red;
+                    @include font($font1);
+                }
+
+            }
+
+            div.col-md-4 {
+
+
+                img.logo-comment {
+
+
+                    filter: invert(1);
+                }
+
+                a.fa-facebook {
+                    color: white;
+                    background: #3B5997;
+                    height: 4px;
+                    width: 4px;
+                    text-align: $cnt;
+
+                    border-radius: 50%;
+
+
+                }
+
+                a.fa-twitter {
+                    color: white;
+                    background: #1DA1F2;
+                    height: 4px;
+                    width: 4px;
+                    text-align: $cnt;
+
+                    border-radius: 50%;
+
+
+                }
+
+                a.fa-pinterest {
+                    color: white;
+                    background: #DD3C24;
+                    height: 4px;
+                    width: 4px;
+                    text-align: $cnt;
+
+                    border-radius: 50%;
+
+
+                }
+
+            }
+
+
+
+        }
+    }
+
+}
