@@ -1,0 +1,76 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+/*FIRST SECTION FONT VARIABLES*/
+$font-title: 'Open Sans', sans-serif;
+$dark-font: #444444;
+$grey-font: #777171;
+$light-font: #d6d1d1;
+$orange-font: #f99639;
+$white-font: #f2efef;
+/*FIRST SECTION STYLE START*/
+
+    /*LEFT PICTURE START*/
+.subcategory {
+    font-family: $font-title;
+    color: #444444;
+    font-size: 69%;
+    text-align: center;
+    font-weight: bold;
+}
+#category {
+    font-family: $font-title;
+    font-size: 30%;
+    color: orange;
+    font-weight: 900;
+}
+.img-fluid.tp{
+    margin-bottom: 5%;
+}
+    /*LEFT PICTURE END*/
+
+
+    /*BLOC RIGHT PICTURES START*/
+.description {
+    font-family: $font-title;
+    color: #444444;
+    font-size: 36%;
+    line-height:9px;
+    width: 100%;
+    font-weight: 900;
+}
+
+.col-md-6.right{
+    padding-left: 0%;
+}
+
+.col-md-6.left{
+    padding-left: 2%;
+    padding-right: 5%
+    
+}
+
+.img-fluid.right{
+    margin-bottom: 5%
+}
+    /*BLOC RIGHT PICTURES END*/
+/*FIRST SECTION END*/
+
+/*FOOTER START*/
+
+.menustyle{
+    font-size: 62%;
+    color:$light-font;
+    font-weight:900;
+    font-style:$font-title;
+}
+
+    /*START MENU LEFT*/
+
+footer{
+    padding-top: 15%;
+}
+
+
+
+
+
