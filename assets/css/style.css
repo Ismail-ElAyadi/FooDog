@@ -45,6 +45,73 @@
   font-size: 62%;
   color: #d6d1d1;
   font-weight: 900;
-  font-style: "Open Sans", sans-serif; }
+  font-style: "Open Sans", sans-serif;
+  margin-bottom: -1%;
+  margin-left: 5%; }
+
+#popular {
+  margin-bottom: 4%; }
+
+#insta {
+  margin-bottom: 1%; }
 
 /*START MENU LEFT*/
+footer {
+  padding-top: 3%;
+  background-color: #444444; }
+  footer .col-md-2 {
+    margin-right: 10%; }
+  footer .offset-md-3 {
+    margin-left: 12%;
+    margin-right: 4%; }
+  footer ul .nav-item .nav-link {
+    color: white;
+    font-size: 65%;
+    font-weight: 900;
+    font-style: "Open Sans", sans-serif;
+    padding-left: 0%;
+    font-weight: 900;
+    margin-bottom: 29%; }
+
+.gallery div {
+  display: flex;
+  padding: 1% !important;
+  max-width: 26%; }
+
+.trio {
+  margin-bottom: 8%; }
+
+#bloc {
+  margin-left: 2%; }
+
+.middle {
+  width: 67%;
+  float: left;
+  margin-right: 10%; }
+
+p {
+  color: white;
+  font-size: 67%;
+  width: 152%;
+  margin-right: 20%;
+  font-weight: 900; }
+
+div .row .sm {
+  background-color: #3B3030;
+  display: flex;
+  height: 22%; }
+  div .row .sm .offset-md-9 {
+    margin-left: 78%;
+    margin-top: 1%; }
+
+.principal {
+  margin-bottom: 4%; }
+
+.fa {
+  background-color: #444444;
+  color: #f2efef;
+  padding: 8%;
+  border-radius: 50%; }
+  .fa .fa-facebook {
+    padding-left: 10%;
+    padding-right: 10%; }
