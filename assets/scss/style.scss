@@ -49,66 +49,68 @@ section.first {
             background: purple;
 
 
-            div.col-md-4 {
+            div.col-md-6 {
+            
                 img.logo-tfd {
                     background: yellow;
+                    border: 2px solid green;
                     height: 30px;
                     width: 30px;
                     margin: 0;
+
                 }
 
                 p.ligne-inside-article {
                     font-size: 8px;
                     color: red;
                     @include font($font1);
+                    margin: auto;
+                    margin-left: 0%;
                 }
 
             }
 
-            div.col-md-4 {
+            div.col-md-6 {
 
-
-                img.logo-comment {
-
-
-                    filter: invert(1);
+                .btn-dark{
+                    font-size: 12px;
                 }
+                
 
-                a.fa-facebook {
-                    color: white;
-                    background: #3B5997;
-                    height: 4px;
-                    width: 4px;
-                    text-align: $cnt;
-
+                .btn-circle {
+                    width: 20px;
+                    height: 20px;
+                    text-align: center;
+                    padding: 1px 0;
+                    font-size: 10px;
+                    line-height: 1.428571429;
                     border-radius: 50%;
+                    border:2px solid rgba(0, 0,0, 0);
+
 
 
                 }
 
-                a.fa-twitter {
+                .facebook{
+                    background: #3B5998;
                     color: white;
-                    background: #1DA1F2;
-                    height: 4px;
-                    width: 4px;
-                    text-align: $cnt;
-
-                    border-radius: 50%;
-
-
+                    
                 }
 
-                a.fa-pinterest {
+                .twitter {
+                    background: #55ACEE;
                     color: white;
-                    background: #DD3C24;
-                    height: 4px;
-                    width: 4px;
-                    text-align: $cnt;
+                  }
 
-                    border-radius: 50%;
+                  .pinterest {
+                    background: #cb2027;
+                    color: white;
+                  }
+                  
 
 
-                }
+
+
 
             }
 
