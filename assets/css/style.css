@@ -29,8 +29,7 @@ h4 {
 h5 {
   width: auto;
   color: #f99639;
-  font-size: 12px;
-  border-right: 1px solid #d6d1d1; }
+  font-size: 12px; }
 
 p {
   color: #777171;
@@ -92,6 +91,10 @@ header {
 /**** SECOND SECTION ****/
 .second-section article {
   padding-top: 25px; }
+  .second-section article h5 {
+    display: inline;
+    padding-right: 5px;
+    border-right: 1px solid #d6d1d1; }
 
 /**** SHARE BLOCK ****/
 .share-block .share-link {
@@ -109,4 +112,75 @@ header {
   margin: auto 0; }
 
 /**** SIDE SECTION ****/
+.side-section {
+  font-size: 12px; }
+  .side-section .side-media:first-of-type {
+    background-color: #3b5998;
+    margin-top: 25%; }
+  .side-section .side-media:nth-of-type(2) {
+    background-color: #55acee; }
+  .side-section .side-media:last-of-type {
+    background-color: #3f729b;
+    margin-bottom: 25%; }
+  .side-section .side-media {
+    color: #fff;
+    padding: 5px 15px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between; }
+    .side-section .side-media div {
+      padding: none; }
+    .side-section .side-media div:nth-of-type(3) {
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: bold; }
+    .side-section .side-media .fa {
+      color: #fff; }
+
 /*********************** END SECOND SECTION ***********************/
+.third-msection .padding-top {
+  padding-top: 50px; }
+
+.third-msection h3 {
+  text-align: center; }
+
+.third-msection h4:first-of-type {
+  padding-bottom: 25px; }
+
+.third-msection h5 {
+  border: none;
+  text-align: center;
+  padding-top: 10px; }
+
+.third-msection .bottom-line {
+  border-bottom: 1px solid #d6d1d1; }
+
+.third-msection .pages {
+  padding-bottom: 10px; }
+  .third-msection .pages .flex-pages {
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around; }
+    .third-msection .pages .flex-pages p {
+      width: 35px;
+      height: 35px;
+      text-align: center; }
+    .third-msection .pages .flex-pages a {
+      width: 35px;
+      height: 35px;
+      color: #d6d1d1;
+      border: 1px solid #777171;
+      border-radius: 50%;
+      text-align: center;
+      padding: auto; }
+    .third-msection .pages .flex-pages a:hover {
+      text-decoration: none; }
+
+.third-msection .square-up {
+  margin-top: 55%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around; }
