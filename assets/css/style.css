@@ -1,3 +1,4 @@
+/* Header */
 img#logotfd-search {
   max-width: 40px;
   height: 40px;
@@ -10,33 +11,230 @@ header div.header-justsa {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #dropdownMenuButton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Crimson Text', serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-#dropdownMenuButton > p {
-  font-size: 24px;
+.foo {
+  display: inline;
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  line-height: 80%;
+  padding-left: 10px;
 }
 
 #subscriptiondigest {
-  display: inline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#subscriptiondigest .input-group-append {
+  height: 20px;
+}
+
+#subscriptiondigest label {
+  font-weight: 300;
+  padding: 2px;
+  margin-right: 5px;
+  font-size: 9px;
+}
+
+#subscriptiondigest input {
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 300;
+  padding-left: 10px;
+  border: 1px solid black;
 }
 
 #subscriptiondigest #btnSignUP {
-  padding: 2px 20px 2px 20px;
+  padding: 0 10px 0 10px;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: bold;
   background-color: black;
 }
 
-#subscriptiondigest label {
-  font-weight: unset;
+/* Section seux : Abonnement newsletter */
+.subscrnewlett {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 12px;
+}
+
+.subscrnewlett h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.subscrnewlett .formorange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.subscrnewlett .formorange input {
+  border: 1px solid #d4d4d4;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.subscrnewlett .formorange input::-webkit-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+}
+
+.subscrnewlett .formorange input:-ms-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+}
+
+.subscrnewlett .formorange input::-ms-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+}
+
+.subscrnewlett .formorange input::placeholder {
+  opacity: 1;
+  font-size: 9px;
+}
+
+.subscrnewlett .formorange button#btnSignUporange {
+  background-color: #FF8069;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 9px;
+  width: 20%;
+}
+
+/* Section cinq : The farmer's dog */
+.fourth {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fourth img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin: 15px 15px 30px 0;
+}
+
+.fourth h4 {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.fourth p {
+  font-size: 12px;
+  color: #afafaf;
+}
+
+/* Section six : Leave a comment */
+.six h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  border-top: 1px solid #afafaf;
+}
+
+.six .formcomment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.six .formcomment #textareacomment {
+  margin-bottom: 30px;
+  border: 1px solid #d4d4d4;
+}
+
+.six .formcomment #textareacomment::-webkit-input-placeholder {
+  opacity: 1;
+  color: black;
+  font-size: 9px;
+}
+
+.six .formcomment #textareacomment:-ms-input-placeholder {
+  opacity: 1;
+  color: black;
+  font-size: 9px;
+}
+
+.six .formcomment #textareacomment::-ms-input-placeholder {
+  opacity: 1;
+  color: black;
+  font-size: 9px;
+}
+
+.six .formcomment #textareacomment::placeholder {
+  opacity: 1;
+  color: black;
+  font-size: 9px;
+}
+
+.six .formcomment .formoneline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.six .formcomment .formoneline input {
+  width: 32%;
+  border: 1px solid #d4d4d4;
+}
+
+.six .formcomment .formoneline input::-webkit-input-placeholder {
+  opacity: 1;
+  color: black;
+  font-size: 9px;
+}
+
+.six .formcomment .formoneline input:-ms-input-placeholder {
+  opacity: 1;
+  color: black;
+  font-size: 9px;
+}
+
+.six .formcomment .formoneline input::-ms-input-placeholder {
+  opacity: 1;
+  color: black;
+  font-size: 9px;
+}
+
+.six .formcomment .formoneline input::placeholder {
+  opacity: 1;
+  color: black;
+  font-size: 9px;
 }
 /*# sourceMappingURL=style.css.map */
