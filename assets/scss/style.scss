@@ -260,7 +260,7 @@ section.third {
 /* ------------------- DEBUT CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
 
 section.fifth {
-    div.zeub {
+
 
         h5 {
             display: table;
@@ -279,7 +279,12 @@ section.fifth {
             background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) repeat-x left center;
             opacity: 0.1;
         }
-    }
+        h3{
+            font-size:12px;
+            font-weight: bolder;
+            text-align: center;
+        }
+    
 }
 
 

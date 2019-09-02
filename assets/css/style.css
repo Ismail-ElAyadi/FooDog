@@ -198,7 +198,7 @@ section.third .col-md-6 .left-side .title {
 
 /* ------------------- FIN CSS SECTION THIRST--ARTICLE-PRECEDENT  ------------------- */
 /* ------------------- DEBUT CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
-section.fifth div.zeub h5 {
+section.fifth h5 {
   display: table;
   white-space: nowrap;
   text-align: center;
@@ -206,12 +206,18 @@ section.fifth div.zeub h5 {
   font-weight: bolder;
 }
 
-section.fifth div.zeub h5:after {
+section.fifth h5:after {
   content: "";
   display: table-cell;
   width: 100%;
   background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) repeat-x left center;
   opacity: 0.1;
+}
+
+section.fifth h3 {
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 /* ------------------- FIN CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
