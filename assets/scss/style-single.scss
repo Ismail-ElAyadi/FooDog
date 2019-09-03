@@ -4,6 +4,18 @@ $font2: "Crimson Text",
 serif;
 $cnt: center;
 
+/* Variable index.html*/
+
+$main-font: "Crimson Text",
+serif;
+$title-font: "Open Sans",
+sans-serif;
+$dark-font: #444444;
+$grey-font: #777171;
+$light-font: #d6d1d1;
+$orange-font: #f99639;
+$white-font: #fff;
+
 @mixin font($font) {
   font-family: $font;
 }
@@ -266,6 +278,51 @@ section.fifth {
 
 /* ------------------- DEBUT CSS SECTION SEVENTH--ASIDE  ------------------- */
 section.seventh {
+
+  /* Aside-mia -start */
+  .try-now {
+    position: relative;
+    width: 45%;
+    top: -2%;
+    font-family: $title-font;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $white-font;
+    background-color: $orange-font;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+    border-radius: 50%;
+  }
+
+  .logo-text {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    font-family: $title-font;
+
+    p {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    p:last-of-type {
+      font-weight: normal;
+      text-transform: none;
+      color: $light-font;
+    }
+  }
+
+  /* Aside-mia -end */
   aside {
     div.row {
       div.col-md-12 {
