@@ -5,13 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style-single.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style-single.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Single</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
@@ -19,16 +30,56 @@
     <div class="container-fluid">
         <!-- Header -->
         <header class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 header-justsa">
+                <div class="dropdown">
+                    <!-- Menu hamburger -->
+                    <button role="button" type="button" class="btn btn-hamb" data-toggle="dropdown"
+                        id="dropdownMenuButton">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        <p class="foo">Foodog</p>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Nutrition</a>
+                        <a class="dropdown-item" href="#">Lifestyle</a>
+                        <a class="dropdown-item" href="#">Wellness</a>
+                        <a class="dropdown-item" href="#">Community</a>
+                    </div>
+                </div>
+                <!-- Abonnement via email -->
+                <div id="subscriptiondigest">
+                    <div class="input-group mb-3">
+                        <div class="input-group-append">
+                            <label class="labeldigest" for="email">Digest In Your Inbox </label>
+                            <input type="email" id="email" class="rounded-0" placeholder="Your email">
+                            <button id="btnSignUP" class="btn btn-dark rounded-0" type="button">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chercher sur le site -->
+                <div class="search">
+                    <img id="logotfd-search" src="assets/img/logo-tfd.png" alt="logo" class="image-fluid">
+                    <button type="button" class="btn border-0" data-toggle="modal" data-target="#infos"><span
+                            class="glyphicon glyphicon-search"></span></button>
+                    <div class="modal" id="infos">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <input type="search" placeholder="Entrez un mot-clef" name="the_search">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- Main -->
         <main class="row">
             <div class="col-md-4 offset-md-3">
+
                 <!-- Debut Article -->
+
+
                 <section class="first">
 
-                    <article class="container">
+                    <article>
                         <h6>
                             Nutrition
                         </h6>
@@ -158,8 +209,16 @@
                 <!-- <section> -->
                 <section class="second">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 subscrnewlett">
                             <h2>Subscribe to The Digest Newletter</h2>
+                            <p>Get health and wellness tips about about your dog delivered to your indox.</p>
+                            <div class="input-group mb-3">
+                                <div class="input-group-append mx-auto formorange">
+                                    <input type="email" class="rounded-0" placeholder="Your email">
+                                    <button id="btnSignUporange" class="btn rounded-0" type="button">Sign
+                                        up</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -183,34 +242,15 @@
                 <!--  </section> -->
                 <!-- Farmer's DOG  -->
                 <!-- <section> -->
-                <section>
+                <section class="fourth">
                     <div class="row">
-                        <div class="col-md-2">
-                            <img alt="Bootstrap Image Preview"
-                                src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
-                        </div>
-                        <div class="col-md-10">
+                        <div class="col-md-12">
+                            <img alt="logo" src="assets/img/logo-tfd.png" />
                             <h4>The farmer's Dog</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget
-                                sapien
-                                sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem
-                                sapien,
-                                sed
-                                vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed
-                                iaculis
-                                posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur,
-                                    nisi
-                                    id
-                                    commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em>
-                                Proin
-                                massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat,
-                                    aliquam
-                                    vel
-                                    luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum
-                                    consequat
-                                    eu.</small>
-                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
                     </div>
                 </section>
@@ -251,43 +291,23 @@
                 </section>
                 <!-- </section> -->
                 <!--  Formulaire commentaire -->
-                <section>
+                <section class="six">
                     <h3>
                         LEAVE A RESPONSE
                     </h3>
                     <form role="form">
-                        <div class="form-group">
+                        <div class="form-group formcomment">
+                            <textarea class="form-control rounded-0" id="textareacomment"
+                                placeholder="Write your comment here..." rows="5"></textarea>
+                            <div class="formoneline">
+                                <input type="name" class="form-control rounded-0" id="name" placeholder="Name..." />
+                                <input type="email" class="form-control rounded-0" id="email" placeholder="Email..." />
+                                <input type="text" class="form-control rounded-0" id="website" placeholder="Website" />
+                            </div>
 
-                            <label for="exampleInputEmail1">
-                                Email address
-                            </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" />
                         </div>
-                        <div class="form-group">
-
-                            <label for="exampleInputPassword1">
-                                Password
-                            </label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" />
-                        </div>
-                        <div class="form-group">
-
-                            <label for="exampleInputFile">
-                                File input
-                            </label>
-                            <input type="file" class="form-control-file" id="exampleInputFile" />
-                            <p class="help-block">
-                                Example block-level help text here.
-                            </p>
-                        </div>
-                        <div class="checkbox">
-
-                            <label>
-                                <input type="checkbox" /> Check me out
-                            </label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            Submit
+                        <button type="submit" class="btn rounded-0 btnComment">
+                            Leave a comment
                         </button>
                     </form>
                 </section>

@@ -153,6 +153,33 @@ section.first article #footer-article {
   margin-bottom: 4%;
 }
 
+section.first article #footer-article .facebook {
+  background: #3b5998;
+  color: white;
+}
+
+section.first article #footer-article .facebook:hover {
+  background: rgba(59, 89, 152, 0.8);
+}
+
+section.first article #footer-article .twitter {
+  background: #55acee;
+  color: white;
+}
+
+section.first article #footer-article .twitter:hover {
+  background: rgba(85, 172, 238, 0.8);
+}
+
+section.first article #footer-article .pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+section.first article #footer-article .pinterest:hover {
+  background: rgba(203, 32, 39, 0.8);
+}
+
 section.first article #footer-article p {
   margin: auto;
   margin-left: 0%;
@@ -198,6 +225,10 @@ section.third .col-md-6 .left-side .title {
 
 /* ------------------- FIN CSS SECTION THIRST--ARTICLE-PRECEDENT  ------------------- */
 /* ------------------- DEBUT CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
+section.fifth img {
+  height: 120px;
+}
+
 section.fifth h5 {
   display: table;
   white-space: nowrap;
@@ -222,6 +253,10 @@ section.fifth h3 {
 
 /* ------------------- FIN CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
 /* ------------------- DEBUT CSS SECTION SEVENTH--ASIDE  ------------------- */
+section.seventh {
+  /*   FIN ISMA */
+}
+
 section.seventh aside div.row div.col-md-12 p {
   text-align: center;
   font-family: "Crimson Text", serif;
@@ -256,5 +291,267 @@ section.seventh aside div.row div.col-md-12 div.follow .btn-circle {
   border-radius: 50%;
   background: #424242;
   border: none;
+}
+
+/* Header */
+header {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+header div.header-justsa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div #dropdownMenuButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+}
+
+header div #dropdownMenuButton .foo {
+  display: inline;
+  font-family: "Crimson Text", serif;
+  font-size: 22px;
+  line-height: 80%;
+  padding-left: 10px;
+}
+
+header div #subscriptiondigest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div #subscriptiondigest .input-group-append {
+  height: 20px;
+}
+
+header div #subscriptiondigest label {
+  font-weight: 300;
+  padding: 2px;
+  margin-right: 5px;
+  font-size: 9px;
+}
+
+header div #subscriptiondigest input {
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 300;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+header div #subscriptiondigest #btnSignUP {
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+header div .search img#logotfd-search {
+  max-width: 40px;
+  height: 40px;
+}
+
+/* Section seux : Abonnement newsletter */
+.subscrnewlett {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 12px;
+}
+
+.subscrnewlett h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.subscrnewlett .formorange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.subscrnewlett .formorange input {
+  border: 1px solid #e0e0e0;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.subscrnewlett .formorange input::-webkit-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+.subscrnewlett .formorange input:-ms-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+.subscrnewlett .formorange input::-ms-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+.subscrnewlett .formorange input::placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+.subscrnewlett .formorange button#btnSignUporange {
+  background-color: #FF8069;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 9px;
+  width: 20%;
+}
+
+/* Section quatre : The farmer's dog */
+section.fourth {
+  font-family: "Open Sans", sans-serif;
+}
+
+section.fourth img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin: 15px 15px 30px 0;
+}
+
+section.fourth h4 {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+section.fourth p {
+  font-size: 12px;
+  color: #afafaf;
+}
+
+/* Section six : Leave a comment */
+section.six {
+  margin-bottom: 50px;
+}
+
+section.six h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  border-top: 1px solid #e0e0e0;
+}
+
+section.six form .formcomment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+section.six form .formcomment #textareacomment {
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+section.six form .formcomment #textareacomment::-webkit-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+section.six form .formcomment #textareacomment:-ms-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+section.six form .formcomment #textareacomment::-ms-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+section.six form .formcomment #textareacomment::placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+section.six form .formcomment .formoneline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.six form .formcomment .formoneline input {
+  width: 32%;
+  border: 1px solid #e0e0e0;
+}
+
+section.six form .formcomment .formoneline input::-webkit-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+section.six form .formcomment .formoneline input:-ms-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+section.six form .formcomment .formoneline input::-ms-input-placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+section.six form .formcomment .formoneline input::placeholder {
+  opacity: 1;
+  font-size: 9px;
+  color: #797979;
+}
+
+section.six form .btnComment {
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style-single.css.map */
