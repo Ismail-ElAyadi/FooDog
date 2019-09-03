@@ -60,7 +60,7 @@ img {
 header {
   section:first-child {
     padding: 50px 25px 10px 25px;
-    border-bottom: 1px solid $light-font;
+
       h1 {
       color: $dark-font;
       text-align: center;
@@ -123,6 +123,22 @@ header {
       border-right: 1px solid $light-font;
     }
   }
+}
+h4 {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+div .title-linebr {
+  display: inline-block;
+  position: relative;
+  height: 2px;
+  width: 70%;
+  background-color: $light-font;
+}
+.border-bottom {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3f1f1;
 }
 
 /**** SHARE BLOCK ****/
@@ -286,7 +302,6 @@ header {
 
 /*FIRST SECTION STYLE START*/
 
-<<<<<<< HEAD
 .sec1{
     
 }
@@ -307,30 +322,11 @@ header {
 }
 .img-fluid.tp{
     margin-bottom: 4%;
-=======
-/*LEFT PICTURE START*/
-.subcategory {
-  font-family: $title-font;
-  color: #444444;
-  font-size: 69%;
-  text-align: center;
-  font-weight: bold;
-}
-#category {
-  font-family: $title-font;
-  font-size: 30%;
-  color: orange;
-  font-weight: 900;
-}
-.img-fluid.tp {
-  margin-bottom: 5%;
->>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
 }
 /*LEFT PICTURE END*/
 
 /*BLOC RIGHT PICTURES START*/
 .description {
-<<<<<<< HEAD
     font-family: $title-font;
     color: #444444;
     font-size: 69%;
@@ -344,18 +340,6 @@ header {
     img{
         width: 95%;
     }
-=======
-  font-family: $title-font;
-  color: #444444;
-  font-size: 36%;
-  line-height: 9px;
-  width: 100%;
-  font-weight: 900;
-}
-
-.col-md-6.right {
-  padding-left: 0%;
->>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
 }
 
 .col-md-6.left {
@@ -366,13 +350,8 @@ header {
 .img-fluid.right {
   margin-bottom: 5%;
 }
-<<<<<<< HEAD
     /***************BLOC RIGHT PICTURES END**********************/
 /**********************FIRST SECTION END****************************/
-=======
-/*BLOC RIGHT PICTURES END*/
-/*FIRST SECTION END*/
->>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
 
 /*************************FOOTER START*****************************/
 
@@ -394,7 +373,6 @@ header {
 
 /*START MENU LEFT*/
 
-<<<<<<< HEAD
 footer{
     padding-top: 3%;
     background-color: $dark-font;
@@ -424,31 +402,6 @@ footer{
                 
            }
         }
-=======
-footer {
-  padding-top: 3%;
-  background-color: $dark-font;
-  .col-md-12 {
-  }
-  .col-md-2 {
-    margin-right: 10%;
-  }
-  .offset-md-3 {
-    margin-left: 12%;
-    margin-right: 4%;
-  }
-  ul {
-    .nav-item {
-      .nav-link {
-        color: white;
-        font-size: 65%;
-        font-weight: 900;
-        font-style: $title-font;
-        padding-left: 0%;
-        font-weight: 900;
-        margin-bottom: 29%;
-      }
->>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
     }
   }
 }
@@ -476,7 +429,6 @@ footer {
   margin-right: 10%;
 }
 
-<<<<<<< HEAD
 .trio{
     margin-bottom: 8%;
 }
@@ -536,32 +488,6 @@ div{
                 padding-right:7%;
             }
             
-=======
-.pstyle {
-  color: white;
-  font-size: 67%;
-  width: 152%;
-  margin-right: 20%;
-  font-weight: 900;
-}
-
-div {
-  .row {
-    .sm {
-      background-color: #3b3030;
-      display: flex;
-      height: 22%;
-
-      .offset-md-9 {
-        margin-left: 73%;
-        margin-top: 1%;
-        .fa {
-          background-color: $dark-font;
-          color: #f2efef;
-          padding: 6%;
-          border-radius: 50%;
-          margin-right: 2%;
->>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
         }
 
         .fa-facebook {
@@ -584,7 +510,7 @@ div {
       }
     }
   }
-}
+
 
 .principal {
   margin-bottom: 4%;

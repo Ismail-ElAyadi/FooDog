@@ -62,7 +62,6 @@ header {
 
 header section:first-child {
   padding: 50px 25px 10px 25px;
-  border-bottom: 1px solid #d6d1d1;
   /**** NAVIGATION BAR ****/
 }
 
@@ -143,6 +142,27 @@ header #social-links .fa.fa-instagram::before {
   display: inline;
   padding-right: 5px;
   border-right: 1px solid #d6d1d1;
+}
+
+h4 {
+  position: relative;
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+div .title-linebr {
+  display: inline-block;
+  position: relative;
+  height: 2px;
+  width: 70%;
+  background-color: #d6d1d1;
+}
+
+.border-bottom {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3f1f1;
 }
 
 /**** SHARE BLOCK ****/
