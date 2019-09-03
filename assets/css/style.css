@@ -228,31 +228,33 @@ header {
 .subcategory {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  font-size: 69%;
+  font-size: 110%;
   text-align: center;
   font-weight: bold; }
 
 #category {
   font-family: "Open Sans", sans-serif;
-  font-size: 30%;
+  font-size: 52%;
   color: orange;
   font-weight: 900; }
 
 .img-fluid.tp {
-  margin-bottom: 5%; }
+  margin-bottom: 4%; }
 
 /*LEFT PICTURE END*/
 /*BLOC RIGHT PICTURES START*/
 .description {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  font-size: 36%;
-  line-height: 9px;
+  font-size: 69%;
+  line-height: 14px;
   width: 100%;
   font-weight: 900; }
 
 .col-md-6.right {
   padding-left: 0%; }
+  .col-md-6.right img {
+    width: 95%; }
 
 .col-md-6.left {
   padding-left: 2%;
@@ -261,9 +263,9 @@ header {
 .img-fluid.right {
   margin-bottom: 5%; }
 
-/*BLOC RIGHT PICTURES END*/
-/*FIRST SECTION END*/
-/*FOOTER START*/
+/***************BLOC RIGHT PICTURES END**********************/
+/**********************FIRST SECTION END****************************/
+/*************************FOOTER START*****************************/
 .menustyle {
   font-size: 62%;
   color: #d6d1d1;
@@ -288,13 +290,15 @@ footer {
     margin-left: 12%;
     margin-right: 4%; }
   footer ul .nav-item .nav-link {
+    width: 110%;
     color: white;
     font-size: 65%;
     font-weight: 900;
     font-style: "Open Sans", sans-serif;
     padding-left: 0%;
     font-weight: 900;
-    margin-bottom: 29%; }
+    margin-bottom: 29%;
+    border-bottom: 1px solid rgba(145, 145, 145, 0.1); }
 
 .gallery div {
   display: flex;
@@ -314,10 +318,11 @@ footer {
 
 .pstyle {
   color: white;
-  font-size: 67%;
+  font-size: 73%;
   width: 152%;
   margin-right: 20%;
-  font-weight: 900; }
+  font-weight: 900;
+  font-style: "Open Sans", sans-serif; }
 
 div .row .sm {
   background-color: #3B3030;
@@ -332,6 +337,8 @@ div .row .sm {
       padding: 6%;
       border-radius: 50%;
       margin-right: 2%; }
+    div .row .sm .offset-md-9 .fa.fa:hover {
+      text-decoration: none; }
     div .row .sm .offset-md-9 .fa-facebook {
       padding-left: 8%;
       padding-right: 8%; }

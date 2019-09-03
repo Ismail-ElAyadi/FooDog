@@ -285,22 +285,26 @@ header {
 
 /*FIRST SECTION STYLE START*/
 
+.sec1{
+    
+}
+
     /*LEFT PICTURE START*/
 .subcategory {
     font-family: $title-font;
     color: #444444;
-    font-size: 69%;
+    font-size: 110%;
     text-align: center;
     font-weight: bold;
 }
 #category {
     font-family: $title-font;
-    font-size: 30%;
+    font-size: 52%;
     color: orange;
     font-weight: 900;
 }
 .img-fluid.tp{
-    margin-bottom: 5%;
+    margin-bottom: 4%;
 }
     /*LEFT PICTURE END*/
 
@@ -309,14 +313,17 @@ header {
 .description {
     font-family: $title-font;
     color: #444444;
-    font-size: 36%;
-    line-height:9px;
+    font-size: 69%;
+    line-height:14px;
     width: 100%;
     font-weight: 900;
 }
 
 .col-md-6.right{
     padding-left: 0%;
+    img{
+        width: 95%;
+    }
 }
 
 .col-md-6.left{
@@ -328,10 +335,10 @@ header {
 .img-fluid.right{
     margin-bottom: 5%
 }
-    /*BLOC RIGHT PICTURES END*/
-/*FIRST SECTION END*/
+    /***************BLOC RIGHT PICTURES END**********************/
+/**********************FIRST SECTION END****************************/
 
-/*FOOTER START*/
+/*************************FOOTER START*****************************/
 
 .menustyle{
     font-size: 62%;
@@ -369,6 +376,7 @@ footer{
         .nav-item{
             
             .nav-link{
+                width: 110%;
                 color: white;
                 font-size: 65%;
                 font-weight: 900;
@@ -376,6 +384,8 @@ footer{
                 padding-left: 0%;
                 font-weight: 900;
                 margin-bottom: 29%;
+                border-bottom: 1px solid rgba(145,145,145,0.1);
+                
            }
         }
     }
@@ -408,10 +418,11 @@ footer{
 
     .pstyle{
     color: white;
-    font-size: 67%;
+    font-size: 73%;
     width: 152%;
     margin-right: 20%;
     font-weight: 900;
+    font-style: $title-font;
 }
  
 
@@ -432,6 +443,9 @@ div{
                 padding: 6%;
                 border-radius: 50%;
                 margin-right: 2%;  
+            }
+            .fa.fa:hover{
+                text-decoration: none;
             }
             
             
