@@ -1,292 +1,272 @@
-$font1: 'Open Sans',
-sans-serif;
-$font2:'Crimson Text',
-serif;
-$cnt:center;
+$font1: "Open Sans", sans-serif;
+$font2: "Crimson Text", serif;
+$cnt: center;
 
 @mixin font($font) {
-    font-family: $font;
+  font-family: $font;
 }
 
 .facebook {
-    background: #3B5998;
-    color: white;
+  background: #3b5998;
+  color: white;
 
-    &:hover {
-        background: rgba($color: #3B5998, $alpha: 0.8);
-    }
-
+  &:hover {
+    background: rgba($color: #3b5998, $alpha: 0.8);
+  }
 }
 
 .twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55acee;
+  color: white;
 
-    &:hover {
-        background: rgba($color: #55ACEE, $alpha: 0.8);
-    }
+  &:hover {
+    background: rgba($color: #55acee, $alpha: 0.8);
+  }
 }
 
 .pinterest {
-    background: #cb2027;
-    color: white;
+  background: #cb2027;
+  color: white;
 
-    &:hover {
-        background: rgba($color: #cb2027, $alpha: 0.8);
-    }
+  &:hover {
+    background: rgba($color: #cb2027, $alpha: 0.8);
+  }
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
-
 
 /* ------------------- DEBUT CSS SECTION FIRST--ARTICLE  ------------------- */
 
 section.first {
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    article {
-
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        h6 {
-            @include font($font1);
-            color: red;
-            font-size: 13px;
-            text-align: $cnt;
-        }
-
-        h1 {
-            @include font($font1);
-            color: black;
-            text-align: $cnt;
-            font-size: 17px;
-        }
-
-        h3 {
-            @include font($font1);
-            font-size: 16px;
-
-            font-weight: bolder;
-        }
-
-
-
-        img {
-            width: 80%;
-            margin: auto;
-
-
-        }
-
-        div.row {
-            flex-direction: row;
-            align-content: center;
-            justify-content: $cnt;
-            border-top: 1px solid rgb(202, 202, 202);
-            border-bottom: 1px solid rgb(202, 202, 202);
-            margin-top: 1%;
-            margin-bottom: 1%;
-
-
-
-            div.col-md-5 {
-                margin-top: 0.5%;
-                margin-bottom: 0.5%;
-
-                img.logo-tfd {
-
-
-                    height: 30px;
-                    width: 30px;
-                    margin: 0;
-
-                }
-
-                p.ligne-inside-article {
-                    font-size: 8px;
-
-                    @include font($font1);
-                    margin: auto;
-                    margin-left: 3%;
-                    color: gray;
-                }
-
-            }
-
-            div.col-md-7 {
-                p {
-                    margin: auto;
-                    margin-right: 3%;
-                    font-size: 10px;
-                }
-
-                .fa-comment {
-
-                    margin-right: 14%;
-                    font-size: 14px;
-                }
-
-
-                .btn-dark {
-                    margin: auto;
-                    padding: 0%;
-                    padding-left: 8%;
-                    padding-right: 8%;
-                    font-size: 10px;
-                    height: 20px;
-
-
-                }
-
-
-                .btn-circle {
-                    margin: auto;
-                    width: 20px;
-                    height: 20px;
-                    text-align: center;
-                    padding: 1px 0;
-                    font-size: 10px;
-                    line-height: 1.428571429;
-                    border-radius: 50%;
-                    border: 2px solid rgba(0, 0, 0, 0);
-
-
-
-                }
-
-
-
-
-
-
-
-
-
-
-
-            }
-
-
-
-        }
-
-        .col-md-12 {
-            padding: 0;
-        }
-
-        p.crimson {
-
-            @include font($font2);
-            font-size: 12px;
-
-        }
-
-        #footer-article {
-            font-size: 10px;
-            text-align: center;
-            justify-content: center;
-            margin-bottom: 4%;
-
-
-            p {
-                margin: auto;
-                margin-left: 0%;
-                margin-right: 0%;
-            }
-
-            button {
-
-
-                font-size: 10px;
-                width: 21%;
-                border: 0px solid black
-            }
-        }
+    h6 {
+      @include font($font1);
+      color: red;
+      font-size: 13px;
+      text-align: $cnt;
     }
 
+    h1 {
+      @include font($font1);
+      color: black;
+      text-align: $cnt;
+      font-size: 17px;
+    }
+
+    h3 {
+      @include font($font1);
+      font-size: 16px;
+
+      font-weight: bolder;
+    }
+
+    img {
+      width: 80%;
+      margin: auto;
+    }
+
+    div.row {
+      flex-direction: row;
+      align-content: center;
+      justify-content: $cnt;
+      border-top: 1px solid rgb(202, 202, 202);
+      border-bottom: 1px solid rgb(202, 202, 202);
+      margin-top: 1%;
+      margin-bottom: 1%;
+
+      div.col-md-5 {
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+
+        img.logo-tfd {
+          height: 30px;
+          width: 30px;
+          margin: 0;
+        }
+
+        p.ligne-inside-article {
+          font-size: 8px;
+
+          @include font($font1);
+          margin: auto;
+          margin-left: 3%;
+          color: gray;
+        }
+      }
+
+      div.col-md-7 {
+        p {
+          margin: auto;
+          margin-right: 3%;
+          font-size: 10px;
+        }
+
+        .fa-comment {
+          margin-right: 14%;
+          font-size: 14px;
+        }
+
+        .btn-dark {
+          margin: auto;
+          padding: 0%;
+          padding-left: 8%;
+          padding-right: 8%;
+          font-size: 10px;
+          height: 20px;
+        }
+
+        .btn-circle {
+          margin: auto;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          padding: 1px 0;
+          font-size: 10px;
+          line-height: 1.428571429;
+          border-radius: 50%;
+          border: 2px solid rgba(0, 0, 0, 0);
+        }
+      }
+    }
+
+    .col-md-12 {
+      padding: 0;
+    }
+
+    p.crimson {
+      @include font($font2);
+      font-size: 12px;
+    }
+
+    #footer-article {
+      font-size: 10px;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 4%;
+
+      p {
+        margin: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+      }
+
+      button {
+        font-size: 10px;
+        width: 21%;
+        border: 0px solid black;
+      }
+    }
+  }
 }
 
-
 /* ------------------- FIN CSS SECTION FIRST--ARTICLE  ------------------- */
-
 
 /* ------------------- DEBUT CSS SECTION THIRST--ARTICLE-PRECEDENT  ------------------- */
 
 section.third {
+  .col-md-6 {
+    border-top: 1px solid rgb(206, 206, 206);
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding-left: 0.5%;
+    margin-bottom: 2%;
 
+    .left-side {
+      border-right: 1px solid rgb(206, 206, 206);
 
-    .col-md-6 {
-        border-top: 1px solid rgb(206, 206, 206);
-        border-bottom: 1px solid rgb(206, 206, 206);
-        padding-left: 0.5%;
-        margin-bottom: 2%;
+      margin-top: 10%;
+      margin-bottom: 10%;
 
+      .previous {
+        color: gray;
+        font-size: 8px;
+        @include font($font2);
 
-        .left-side {
-            border-right: 1px solid rgb(206, 206, 206);
-
-            margin-top: 10%;
-            margin-bottom: 10%;
-
-            .previous {
-                color: gray;
-                font-size: 8px;
-                @include font($font2);
-
-                .fa-angle-left {
-                    margin-right: 5%;
-                }
-
-            }
-
-            .title {
-                font-size: 10px;
-                font-weight: bolder;
-                @include font($font2);
-
-
-
-
-            }
+        .fa-angle-left {
+          margin-right: 5%;
         }
+      }
+
+      .title {
+        font-size: 10px;
+        font-weight: bolder;
+        @include font($font2);
+      }
     }
+  }
 }
 
 /* ------------------- FIN CSS SECTION THIRST--ARTICLE-PRECEDENT  ------------------- */
 /* ------------------- DEBUT CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
 
 section.fifth {
+  h5 {
+    display: table;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+  }
 
-
-        h5 {
-            display: table;
-            white-space: nowrap;
-            text-align: center;
-            font-size: 12px;
-            font-weight: bolder;
-
-        }
-
-
-        h5:after {
-            content: "";
-            display: table-cell;
-            width: 100%;
-            background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) repeat-x left center;
-            opacity: 0.1;
-        }
-        h3{
-            font-size:12px;
-            font-weight: bolder;
-            text-align: center;
-        }
-    
+  h5:after {
+    content: "";
+    display: table-cell;
+    width: 100%;
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+      repeat-x left center;
+    opacity: 0.1;
+  }
+  h3 {
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+  }
 }
 
-
-
 /* ------------------- FIN CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
+
+/* ------------------- DEBUT CSS SECTION SEVENTH--ASIDE  ------------------- */
+section.seventh {
+  aside {
+    div.row {
+      div.col-md-12 {
+        p {
+          text-align: center;
+          @include font($font2);
+          color: rgb(114, 114, 114);
+        }
+        div.follow {
+          width: max-content;
+          margin: auto;
+
+          .fa {
+            color: white;
+            padding: 0;
+            font-size: 20px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+          }
+          .btn-circle {
+            margin: auto;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            padding: 1px 0;
+            font-size: 10px;
+            line-height: 1.428571429;
+            border-radius: 50%;
+            background: rgb(66, 66, 66);
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
