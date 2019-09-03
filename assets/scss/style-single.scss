@@ -279,57 +279,19 @@ section.fifth {
 /* ------------------- DEBUT CSS SECTION SEVENTH--ASIDE  ------------------- */
 section.seventh {
 
-  /* Aside-mia -start */
-  .try-now {
-    position: relative;
-    width: 45%;
-    top: -2%;
-    font-family: $title-font;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: $white-font;
-    background-color: $orange-font;
-    text-align: center;
-    padding: 5px 15px;
-    margin: 0 auto;
-  }
 
-  .logo {
-    position: absolute;
-    display: inline-block;
-    width: 30%;
-    border-radius: 50%;
-  }
-
-  .logo-text {
-    position: absolute;
-    left: 50%;
-    display: inline-block;
-    width: 50%;
-    margin: 0 auto;
-    font-family: $title-font;
-
-    p {
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 5px;
-    }
-
-    p:last-of-type {
-      font-weight: normal;
-      text-transform: none;
-      color: $light-font;
-    }
-  }
-
-  /* Aside-mia -end */
   aside {
     div.row {
       div.col-md-12 {
         p {
+          margin-top: 30%;
           text-align: center;
-          @include font($font2);
+          @include font($font1);
           color: rgb(114, 114, 114);
+        }
+
+        img {
+          margin-top: 10%;
         }
 
         div.follow {
@@ -363,7 +325,7 @@ section.seventh {
     }
   }
 
-  /*   FIN ISMA */
+  /* ----------------------------  FIN ISMA ----------------------------  */
 
 
 }
@@ -466,7 +428,7 @@ header {
   h2 {
     font-size: 22px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 6%;
   }
 
   .formorange {

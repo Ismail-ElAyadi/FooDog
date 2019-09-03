@@ -37,11 +37,11 @@ section.first article {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section.first article h6 {
@@ -72,13 +72,13 @@ section.first article img {
 section.first article div.row {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-top: 1px solid #cacaca;
   border-bottom: 1px solid #cacaca;
   margin-top: 1%;
@@ -149,8 +149,8 @@ section.first article #footer-article {
   font-size: 10px;
   text-align: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 4%;
 }
 
@@ -254,54 +254,19 @@ section.fifth h3 {
 
 /* ------------------- FIN CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
 /* ------------------- DEBUT CSS SECTION SEVENTH--ASIDE  ------------------- */
-
-
-section.seventh .try-now {
-  position: relative;
-  width: 45%;
-  top: -2%;
-  font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #fff;
-  background-color: #f99639;
-  text-align: center;
-  padding: 5px 15px;
-  margin: 0 auto;
-}
-
-section.seventh .logo {
-  position: absolute;
-  display: inline-block;
-  width: 30%;
-  border-radius: 50%;
-}
-
-section.seventh .logo-text {
-  position: absolute;
-  left: 50%;
-  display: inline-block;
-  width: 50%;
-  margin: 0 auto;
-  font-family: "Open Sans", sans-serif;
-}
-
-section.seventh .logo-text p {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
-
-section.seventh .logo-text p:last-of-type {
-  font-weight: normal;
-  text-transform: none;
-  color: #d6d1d1;
+section.seventh {
+  /* ----------------------------  FIN ISMA ----------------------------  */
 }
 
 section.seventh aside div.row div.col-md-12 p {
+  margin-top: 30%;
   text-align: center;
-  font-family: "Crimson Text", serif;
+  font-family: "Open Sans", sans-serif;
   color: #727272;
+}
+
+section.seventh aside div.row div.col-md-12 img {
+  margin-top: 10%;
 }
 
 section.seventh aside div.row div.col-md-12 div.follow {
@@ -345,11 +310,11 @@ header div.header-justsa {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header div #dropdownMenuButton {
@@ -372,11 +337,11 @@ header div #subscriptiondigest {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+      flex-wrap: nowrap;
   font-family: "Open Sans", sans-serif;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header div #subscriptiondigest .input-group-append {
@@ -422,7 +387,7 @@ header div .search img#logotfd-search {
 .subscrnewlett h2 {
   font-size: 22px;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 6%;
 }
 
 .subscrnewlett .formorange {
@@ -430,8 +395,8 @@ header div .search img#logotfd-search {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -516,8 +481,8 @@ section.six form .formcomment {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -555,8 +520,8 @@ section.six form .formcomment .formoneline {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 section.six form .formcomment .formoneline input {
@@ -595,5 +560,4 @@ section.six form .btnComment {
   background-color: black;
   color: white;
 }
-
 /*# sourceMappingURL=style-single.css.map */
