@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "dependencies": {
     "node-sass": "^4.12.0"
   },
@@ -7,12 +6,3 @@
     "scss": "node-sass --watch assets/scss -o assets/css"
   }
 }
-=======
-    "dependencies": {
-        "node-sass": "^4.12.0"
-    },
-    "scripts": {
-        "scss": "node-sass --watch assets/scss -o assets/css"
-    }
-}
->>>>>>> wolf

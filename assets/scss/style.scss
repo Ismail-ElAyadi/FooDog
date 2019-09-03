@@ -59,7 +59,8 @@ img {
 
 header {
   section:first-child {
-    padding: 50px 25px;
+    padding: 50px 25px 10px 25px;
+    border-bottom: 1px solid $light-font;
       h1 {
       color: $dark-font;
       text-align: center;
@@ -285,6 +286,7 @@ header {
 
 /*FIRST SECTION STYLE START*/
 
+<<<<<<< HEAD
 .sec1{
     
 }
@@ -305,12 +307,30 @@ header {
 }
 .img-fluid.tp{
     margin-bottom: 4%;
+=======
+/*LEFT PICTURE START*/
+.subcategory {
+  font-family: $title-font;
+  color: #444444;
+  font-size: 69%;
+  text-align: center;
+  font-weight: bold;
 }
-    /*LEFT PICTURE END*/
+#category {
+  font-family: $title-font;
+  font-size: 30%;
+  color: orange;
+  font-weight: 900;
+}
+.img-fluid.tp {
+  margin-bottom: 5%;
+>>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
+}
+/*LEFT PICTURE END*/
 
-
-    /*BLOC RIGHT PICTURES START*/
+/*BLOC RIGHT PICTURES START*/
 .description {
+<<<<<<< HEAD
     font-family: $title-font;
     color: #444444;
     font-size: 69%;
@@ -324,41 +344,57 @@ header {
     img{
         width: 95%;
     }
+=======
+  font-family: $title-font;
+  color: #444444;
+  font-size: 36%;
+  line-height: 9px;
+  width: 100%;
+  font-weight: 900;
 }
 
-.col-md-6.left{
-    padding-left: 2%;
-    padding-right: 5%
-    
+.col-md-6.right {
+  padding-left: 0%;
+>>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
 }
 
-.img-fluid.right{
-    margin-bottom: 5%
+.col-md-6.left {
+  padding-left: 2%;
+  padding-right: 5%;
 }
+
+.img-fluid.right {
+  margin-bottom: 5%;
+}
+<<<<<<< HEAD
     /***************BLOC RIGHT PICTURES END**********************/
 /**********************FIRST SECTION END****************************/
+=======
+/*BLOC RIGHT PICTURES END*/
+/*FIRST SECTION END*/
+>>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
 
 /*************************FOOTER START*****************************/
 
-.menustyle{
-    font-size: 62%;
-    color:$light-font;
-    font-weight:900;
-    font-style:$title-font;
-    margin-bottom: -1%;
-    margin-left: 5%;
-
+.menustyle {
+  font-size: 62%;
+  color: $light-font;
+  font-weight: 900;
+  font-style: $title-font;
+  margin-bottom: -1%;
+  margin-left: 5%;
 }
 
-#popular{
-    margin-bottom: 4%;
+#popular {
+  margin-bottom: 4%;
 }
-#insta{
-    margin-bottom:1%;
+#insta {
+  margin-bottom: 1%;
 }
 
-    /*START MENU LEFT*/
+/*START MENU LEFT*/
 
+<<<<<<< HEAD
 footer{
     padding-top: 3%;
     background-color: $dark-font;
@@ -388,17 +424,59 @@ footer{
                 
            }
         }
+=======
+footer {
+  padding-top: 3%;
+  background-color: $dark-font;
+  .col-md-12 {
+  }
+  .col-md-2 {
+    margin-right: 10%;
+  }
+  .offset-md-3 {
+    margin-left: 12%;
+    margin-right: 4%;
+  }
+  ul {
+    .nav-item {
+      .nav-link {
+        color: white;
+        font-size: 65%;
+        font-weight: 900;
+        font-style: $title-font;
+        padding-left: 0%;
+        font-weight: 900;
+        margin-bottom: 29%;
+      }
+>>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
     }
+  }
 }
 
-.gallery{
-    div{
-        display: flex;
-        padding:1% !important;
-        max-width: 26%;
-    }
+.gallery {
+  div {
+    display: flex;
+    padding: 1% !important;
+    max-width: 26%;
+  }
 }
 
+.trio {
+  margin-bottom: 8%;
+}
+
+#bloc {
+  margin-left: 2%;
+}
+
+.middle {
+  width: 67%;
+
+  float: left;
+  margin-right: 10%;
+}
+
+<<<<<<< HEAD
 .trio{
     margin-bottom: 8%;
 }
@@ -458,24 +536,56 @@ div{
                 padding-right:7%;
             }
             
+=======
+.pstyle {
+  color: white;
+  font-size: 67%;
+  width: 152%;
+  margin-right: 20%;
+  font-weight: 900;
+}
+
+div {
+  .row {
+    .sm {
+      background-color: #3b3030;
+      display: flex;
+      height: 22%;
+
+      .offset-md-9 {
+        margin-left: 73%;
+        margin-top: 1%;
+        .fa {
+          background-color: $dark-font;
+          color: #f2efef;
+          padding: 6%;
+          border-radius: 50%;
+          margin-right: 2%;
+>>>>>>> 2ce847c2cc1eca6f17cb3456a57ea5bef8b47a3c
         }
-        .offset-md-10{
-            text-align: right;
-            .squareup{
-                width: 14%;
-                margin-bottom: 3%;
-                margin-right: 3%;
-                color: $dark-font;
-            }
+
+        .fa-facebook {
+          padding-left: 8%;
+          padding-right: 8%;
         }
-    
+        .fa-instagram {
+          padding-left: 7%;
+          padding-right: 7%;
         }
+      }
+      .offset-md-10 {
+        text-align: right;
+        .squareup {
+          width: 14%;
+          margin-bottom: 3%;
+          margin-right: 3%;
+          color: $dark-font;
+        }
+      }
     }
+  }
 }
 
-.principal{
-    margin-bottom: 4%;
+.principal {
+  margin-bottom: 4%;
 }
-
-
-
