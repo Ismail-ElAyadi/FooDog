@@ -60,7 +60,7 @@ img {
 header {
   section:first-child {
     padding: 50px 25px 10px 25px;
-    border-bottom: 1px solid $light-font;
+
       h1 {
       color: $dark-font;
       text-align: center;
@@ -123,6 +123,22 @@ header {
       border-right: 1px solid $light-font;
     }
   }
+}
+h4 {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+div .title-linebr {
+  display: inline-block;
+  position: relative;
+  height: 2px;
+  width: 70%;
+  background-color: $light-font;
+}
+.border-bottom {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3f1f1;
 }
 
 /**** SHARE BLOCK ****/
