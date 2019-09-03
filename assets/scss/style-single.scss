@@ -55,6 +55,7 @@ section.first {
     flex-direction: column;
     justify-content: center;
 
+
     h6 {
       @include font($font1);
       color: red;
