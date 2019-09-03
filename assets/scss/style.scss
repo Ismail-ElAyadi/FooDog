@@ -146,8 +146,35 @@ div{
             height: 22%;   
             
         .offset-md-9{
-            margin-left:78%;
+            margin-left:73%;
             margin-top: 1%;
+            .fa{
+                background-color:$dark-font;
+                color: #f2efef;
+                padding: 6%;
+                border-radius: 50%;
+                margin-right: 2%;  
+            }
+            
+            
+            .fa-facebook{
+                padding-left: 8%;
+                padding-right: 8%;
+            }
+            .fa-instagram{
+                padding-left:7%;
+                padding-right:7%;
+            }
+            
+        }
+        .offset-md-10{
+            text-align: right;
+            .squareup{
+                width: 14%;
+                margin-bottom: 3%;
+                margin-right: 3%;
+                color: $dark-font;
+            }
         }
     
         }
@@ -158,15 +185,5 @@ div{
     margin-bottom: 4%;
 }
 
-.fa{
-    background-color:$dark-font;
-    color: #f2efef;
-    padding: 8%;
-    border-radius: 50%;
-    .fa-facebook{
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-}
 
 
