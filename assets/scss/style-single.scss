@@ -1,5 +1,7 @@
-$font1: "Open Sans", sans-serif;
-$font2: "Crimson Text", serif;
+$font1: "Open Sans",
+sans-serif;
+$font2: "Crimson Text",
+serif;
 $cnt: center;
 
 @mixin font($font) {
@@ -217,10 +219,10 @@ section.fifth {
     content: "";
     display: table-cell;
     width: 100%;
-    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
-      repeat-x left center;
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) repeat-x left center;
     opacity: 0.1;
   }
+
   h3 {
     font-size: 12px;
     font-weight: bolder;
@@ -240,6 +242,7 @@ section.seventh {
           @include font($font2);
           color: rgb(114, 114, 114);
         }
+
         div.follow {
           width: max-content;
           margin: auto;
@@ -253,6 +256,7 @@ section.seventh {
             text-decoration: none;
             border-radius: 50%;
           }
+
           .btn-circle {
             margin: auto;
             width: 30px;
