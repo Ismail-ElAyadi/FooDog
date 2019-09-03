@@ -226,8 +226,20 @@ section.third .col-md-6 .left-side .title {
 
 /* ------------------- FIN CSS SECTION THIRST--ARTICLE-PRECEDENT  ------------------- */
 /* ------------------- DEBUT CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
+section.fifth .col-md-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 section.fifth img {
   height: 120px;
+  width: 120px;
+  margin: auto;
 }
 
 section.fifth h5 {
@@ -256,6 +268,19 @@ section.fifth h3 {
 /* ------------------- DEBUT CSS SECTION SEVENTH--ASIDE  ------------------- */
 section.seventh {
   /* ----------------------------  FIN ISMA ----------------------------  */
+}
+
+section.seventh aside div.row div.col-md-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section.seventh aside div.row div.col-md-12 p {
@@ -431,7 +456,7 @@ header div .search img#logotfd-search {
 }
 
 .subscrnewlett .formorange button#btnSignUporange {
-  background-color: #FF8069;
+  background-color: #ff8069;
   color: white;
   text-transform: uppercase;
   font-weight: 900;

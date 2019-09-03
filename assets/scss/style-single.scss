@@ -1,15 +1,11 @@
-$font1: "Open Sans",
-sans-serif;
-$font2: "Crimson Text",
-serif;
+$font1: "Open Sans", sans-serif;
+$font2: "Crimson Text", serif;
 $cnt: center;
 
 /* Variable index.html*/
 
-$main-font: "Crimson Text",
-serif;
-$title-font: "Open Sans",
-sans-serif;
+$main-font: "Crimson Text", serif;
+$title-font: "Open Sans", sans-serif;
 $dark-font: #444444;
 $grey-font: #777171;
 $light-font: #d6d1d1;
@@ -201,7 +197,6 @@ section.first {
         font-size: 10px;
         width: 21%;
         border: 0px solid black;
-
       }
     }
   }
@@ -247,8 +242,14 @@ section.third {
 /* ------------------- DEBUT CSS SECTION FIFTH--LIENS-ARTICLE  ------------------- */
 
 section.fifth {
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+  }
   img {
     height: 120px;
+    width: 120px;
+    margin: auto;
   }
 
   h5 {
@@ -263,7 +264,8 @@ section.fifth {
     content: "";
     display: table-cell;
     width: 100%;
-    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) repeat-x left center;
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=)
+      repeat-x left center;
     opacity: 0.1;
   }
 
@@ -278,11 +280,12 @@ section.fifth {
 
 /* ------------------- DEBUT CSS SECTION SEVENTH--ASIDE  ------------------- */
 section.seventh {
-
-
   aside {
     div.row {
       div.col-md-12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         p {
           margin-top: 30%;
           text-align: center;
@@ -326,15 +329,11 @@ section.seventh {
   }
 
   /* ----------------------------  FIN ISMA ----------------------------  */
-
-
 }
 
-$greybord:1px solid rgb(224, 224, 224);
-$OpenS: 'Open Sans',
-sans-serif;
-$Crimson:'Crimson Text',
-serif;
+$greybord: 1px solid rgb(224, 224, 224);
+$OpenS: "Open Sans", sans-serif;
+$Crimson: "Crimson Text", serif;
 
 @mixin blackBtn {
   text-transform: uppercase;
@@ -351,7 +350,6 @@ serif;
 }
 
 /* Header */
-
 
 header {
   border-bottom: $greybord;
@@ -387,7 +385,6 @@ header {
         height: 20px;
       }
 
-
       label {
         font-weight: 300;
         padding: 2px;
@@ -406,7 +403,6 @@ header {
       #btnSignUP {
         @include blackBtn();
         padding: 0 10px 0 10px;
-
       }
     }
 
@@ -447,7 +443,7 @@ header {
     }
 
     button#btnSignUporange {
-      background-color: #FF8069;
+      background-color: #ff8069;
       color: white;
       text-transform: uppercase;
       font-weight: 900;
@@ -526,5 +522,4 @@ section.six {
       @include blackBtn;
     }
   }
-
 }
