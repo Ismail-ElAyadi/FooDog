@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FooDog</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans&display=swap" rel="stylesheet">
@@ -13,13 +17,54 @@
 
 <body>
     <div class="container-fluid">
-        <!-- Header -->
-        <header class="row">
-            <section class="col-md-8 offset-md-2 col-sm-1">
+        <!--HEADER BURGER-->
+        <header class="row burger">
+
+            <section class="col-md-8 offset-md-2 ">
 
                 <h1 class="text-center">FooDog</h1>
 
-                <ul class="nav nav-tabs">
+                <nav class="navbar navbard-expand-sm navbar-light light-blue lighten-4">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nutrition</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Wellness</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Lifestyle</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Community</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+            <section class="col-md-2 " id="social-links">
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-search"></a>
+            </section>
+        </header>
+        <!-- END HEADER BURGER -->
+
+        <!-- HEADER GRAND ECRAN-->
+        <header class="row grandecran">
+            <section class="col-md-8 offset-md-2 ">
+
+                <h1 class="text-center">FooDog</h1>
+
+                <ul class="nav nav-tabs grandecran">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Nutrition</a>
                     </li>
@@ -41,7 +86,7 @@
                 <a href="#" class="fa fa-search"></a>
             </section>
         </header>
-        <!--END HEADER-->
+        <!--END HEADER GRAND ECRAN-->
 
         <main>
             <!--START FIRST SECTION-->
@@ -106,7 +151,7 @@
                 <div class="col-md-8 offset-md-2">
                     <section class="row">
                         <div class="col-md-8">
-                            <h4 >
+                            <h4>
                                 Featured posts
                             </h4>
                             <div class="title-linebr no-gutters">
@@ -124,7 +169,8 @@
                                         Cooking for your dog? Watch out for these
                                     </h3>
                                     <p>
-                                        So you've discovered the many issues with commercial pet food and have decided
+                                        So you've discovered the many issues with commercial pet food and have
+                                        decided
                                         that a home cooked diet is
                                     </p>
                                     <section class="share-block">
@@ -145,7 +191,8 @@
                                         Why you should be feeding your dog sardines
                                     </h3>
                                     <p>
-                                        I usually associate sardines with Garfield cartoons, but I have major news: That
+                                        I usually associate sardines with Garfield cartoons, but I have major
+                                        news: That
                                         can of sardines that's been hiding in your
                                     </p>
                                     <section class="share-block">
@@ -166,7 +213,8 @@
                                         Why skinny dogs live longer
                                     </h3>
                                     <p>
-                                        We know you love every inch of your dog's body just the way it is, but pudge can
+                                        We know you love every inch of your dog's body just the way it is, but
+                                        pudge can
                                         become a
                                     </p>
                                     <section class="share-block">
@@ -252,7 +300,8 @@
                                 The 11 dog food label tricks every owner needs to know
                             </h3>
                             <p>
-                                Health-conscious consumers are skilled at deciphering nutrition facts labels. We know to
+                                Health-conscious consumers are skilled at deciphering nutrition facts labels. We
+                                know to
                                 monitor our sodium intake, avoid carrageenan and high
                             </p>
                         </div>
@@ -265,7 +314,8 @@
                                 Superfoods in your kitchen: pumpkins for dogs
                             </h3>
                             <p>
-                                They aren't just good for carving jack-o-lanters or baking into holliday pies. Packed
+                                They aren't just good for carving jack-o-lanters or baking into holliday pies.
+                                Packed
                                 with dietary fiber and potassium, pumpkins are a
                             </p>
                         </div>
@@ -280,7 +330,8 @@
                                 The truth about table scraps for dogs
                             </h3>
                             <p>
-                                Winter is a golden opportunity to make their way under heaping, warm dinner tables,
+                                Winter is a golden opportunity to make their way under heaping, warm dinner
+                                tables,
                                 sniffing for scraps
                             </p>
                         </div>
@@ -293,7 +344,8 @@
                                 What family really means to your dog
                             </h3>
                             <p>
-                                Whether your prefer your turkey deep fried or roasted and your potatoes mashed or sweet,
+                                Whether your prefer your turkey deep fried or roasted and your potatoes mashed
+                                or sweet,
                                 Thanksgiving has one universal truth
                             </p>
                         </div>
@@ -308,7 +360,8 @@
                                 Working like a dog: benefits of dogs in the office
                             </h3>
                             <p>
-                                Once upon a time having dogs in the office seemed like something out of a tech startup
+                                Once upon a time having dogs in the office seemed like something out of a tech
+                                startup
                                 fairy tale; a
                             </p>
                         </div>
@@ -321,7 +374,8 @@
                                 Superfoods in your kitchen: apple cider vinegar for dogs
                             </h3>
                             <p>
-                                Apple cider vinegar is a versatile health tonic pack. Packed with a powerful flavor
+                                Apple cider vinegar is a versatile health tonic pack. Packed with a powerful
+                                flavor
                                 punch, this elixir works well in homemade
                             </p>
                         </div>
