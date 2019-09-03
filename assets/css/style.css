@@ -223,3 +223,128 @@ header {
     justify-content: space-around; }
 
 /*********************** END THIRD SECTION ***********************/
+/*FIRST SECTION STYLE START*/
+/*LEFT PICTURE START*/
+.subcategory {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-size: 69%;
+  text-align: center;
+  font-weight: bold; }
+
+#category {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30%;
+  color: orange;
+  font-weight: 900; }
+
+.img-fluid.tp {
+  margin-bottom: 5%; }
+
+/*LEFT PICTURE END*/
+/*BLOC RIGHT PICTURES START*/
+.description {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-size: 36%;
+  line-height: 9px;
+  width: 100%;
+  font-weight: 900; }
+
+.col-md-6.right {
+  padding-left: 0%; }
+
+.col-md-6.left {
+  padding-left: 2%;
+  padding-right: 5%; }
+
+.img-fluid.right {
+  margin-bottom: 5%; }
+
+/*BLOC RIGHT PICTURES END*/
+/*FIRST SECTION END*/
+/*FOOTER START*/
+.menustyle {
+  font-size: 62%;
+  color: #d6d1d1;
+  font-weight: 900;
+  font-style: "Open Sans", sans-serif;
+  margin-bottom: -1%;
+  margin-left: 5%; }
+
+#popular {
+  margin-bottom: 4%; }
+
+#insta {
+  margin-bottom: 1%; }
+
+/*START MENU LEFT*/
+footer {
+  padding-top: 3%;
+  background-color: #444444; }
+  footer .col-md-2 {
+    margin-right: 10%; }
+  footer .offset-md-3 {
+    margin-left: 12%;
+    margin-right: 4%; }
+  footer ul .nav-item .nav-link {
+    color: white;
+    font-size: 65%;
+    font-weight: 900;
+    font-style: "Open Sans", sans-serif;
+    padding-left: 0%;
+    font-weight: 900;
+    margin-bottom: 29%; }
+
+.gallery div {
+  display: flex;
+  padding: 1% !important;
+  max-width: 26%; }
+
+.trio {
+  margin-bottom: 8%; }
+
+#bloc {
+  margin-left: 2%; }
+
+.middle {
+  width: 67%;
+  float: left;
+  margin-right: 10%; }
+
+.pstyle {
+  color: white;
+  font-size: 67%;
+  width: 152%;
+  margin-right: 20%;
+  font-weight: 900; }
+
+div .row .sm {
+  background-color: #3B3030;
+  display: flex;
+  height: 22%; }
+  div .row .sm .offset-md-9 {
+    margin-left: 73%;
+    margin-top: 1%; }
+    div .row .sm .offset-md-9 .fa {
+      background-color: #444444;
+      color: #f2efef;
+      padding: 6%;
+      border-radius: 50%;
+      margin-right: 2%; }
+    div .row .sm .offset-md-9 .fa-facebook {
+      padding-left: 8%;
+      padding-right: 8%; }
+    div .row .sm .offset-md-9 .fa-instagram {
+      padding-left: 7%;
+      padding-right: 7%; }
+  div .row .sm .offset-md-10 {
+    text-align: right; }
+    div .row .sm .offset-md-10 .squareup {
+      width: 14%;
+      margin-bottom: 3%;
+      margin-right: 3%;
+      color: #444444; }
+
+.principal {
+  margin-bottom: 4%; }
