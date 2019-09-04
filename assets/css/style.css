@@ -507,6 +507,7 @@ div .row .offset-md-10 {
   div .row .sub-footer .offset-md-9 {
     margin-left: 35%; }
   .gallery-ig {
+    display: flex;
     justify-content: center; } }
 
 /**************** MEDIA QUERIES SMARTPHONE ****************/
