@@ -347,7 +347,7 @@ footer {
     margin-bottom: 29%;
     border-bottom: 1px solid rgba(145, 145, 145, 0.1); }
 
-.gallery div {
+.gallery-ig div {
   display: flex;
   padding: 1% !important;
   max-width: 26%; }
@@ -507,7 +507,9 @@ div .row .offset-md-10 {
   div .row .sub-footer {
     height: 5%; }
   div .row .sub-footer .offset-md-9 {
-    margin-left: 35%; } }
+    margin-left: 35%; }
+  .gallery-ig {
+    justify-content: center; } }
 
 /**************** MEDIA QUERIES SMARTPHONE ****************/
 @media only screen and (max-width: 575px) {

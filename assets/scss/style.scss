@@ -445,7 +445,7 @@ footer {
   }
 }
 
-.gallery {
+.gallery-ig {
   div {
     display: flex;
     padding: 1% !important;
@@ -695,6 +695,9 @@ $breakpoint-tablet: 768px;
   }
   div .row .sub-footer .offset-md-9 {
     margin-left: 35%;
+  }
+  .gallery-ig{
+    justify-content: center;
   }
 }
 /**************** MEDIA QUERIES SMARTPHONE ****************/
