@@ -124,6 +124,11 @@ header {
     }
   }
 }
+.block-linebr {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
 h4 {
   position: relative;
   display: inline-block;
@@ -133,9 +138,11 @@ div .title-linebr {
   display: inline-block;
   position: relative;
   height: 2px;
-  width: 64%;
+  width: 70%;
   background-color: $light-font;
+  margin: auto 0 auto auto;
 }
+
 .border-bottom {
   padding-bottom: 10px;
   border-bottom: 1px solid #f3f1f1;
@@ -243,8 +250,11 @@ div .title-linebr {
   h3 {
     text-align: center;
   }
-  h4:first-of-type {
-    padding-bottom: 25px;
+  .block-linebr {
+    margin-bottom: 25px;
+  }
+  div .title-linebr {
+    width: 80%;
   }
   h5 {
     border: none;
@@ -502,4 +512,235 @@ div {
 
 .principal {
   margin-bottom: 4%;
+}
+
+/**************** MEDIA QUERIES TABLET ****************/
+$breakpoint-tablet: 768px;
+
+@media only screen and (min-width: 576px) and (max-width: $breakpoint-tablet) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    /*** GENERAL STYLE ***/
+    width: 100%;
+    img {
+      height: 10vh;
+    }
+  }
+
+  /*** SECTION 1 ***/
+  .subcategory {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid $light-font;
+  }
+  .intro-left,
+  .intro-right {
+    margin-bottom: 10px;
+  }
+  /*** END SECTION 1 ***/
+  /*** SECTION 2 ***/
+
+  .block-linebr {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    h4 {
+      width: fit-content;
+      margin-bottom: 0;
+    }
+    .title-linebr {
+      width: 80%;
+    }
+  }
+  div .title-linebr {
+    margin: auto 0 auto auto;
+  }
+
+  .second-section {
+    article {
+      h5 {
+        padding-right: 10px;
+      }
+    }
+    .share-block {
+      margin-top: 25px;
+      a {
+        margin-right: 10px;
+        padding: 8px;
+      }
+      p {
+        padding: 8px;
+      }
+    }
+  }
+  /* SIDE SECTION */
+
+  .side-section {
+    height: 33px;
+
+    .side-media:first-of-type {
+      margin-top: 5%;
+      width: 33%;
+    }
+    .side-media:nth-of-type(2) {
+      width: 33%;
+    }
+    .side-media:last-of-type {
+      width: 33%;
+    }
+    .side-media {
+      width: 33%;
+      text-align: center;
+      display: inline-block;
+      font-size: 25px;
+
+      .fa {
+      }
+      .fa.fa-facebook {
+      }
+      .fa.fa-instagram {
+      }
+
+      div:nth-of-type(2) {
+        display: none;
+      }
+      div:last-of-type {
+        display: none;
+      }
+    }
+    img {
+      /* A CORRIGER */
+      position: relative;
+      width: 25%;
+      display: none;
+    }
+    .try-now,
+    .logo-text {
+      display: none;
+    }
+  }
+
+  /* SQUARE UP */
+
+  .col-md-2.square-up {
+    display: none;
+    margin: none;
+  }
+  /*** END SECTION 2 ***/
+
+  /*** SECTION 3 ***/
+
+  .third-msection h4:first-of-type {
+    padding: 0;
+  }
+  .third-msection {
+    .block-linebr {
+      margin-top: 20px;
+    }
+  }
+  .paddingt {
+    padding-top: 25px;
+  }
+  /*** END SECTION ***/
+
+  footer {
+    .cancel {
+      display: none;
+    }
+  }
+  div .row .sm {
+    height: 5%;
+  }
+}
+/**************** MEDIA QUERIES SMARTPHONE ****************/
+@media only screen and (max-width: 575px) {
+  body {
+    main {
+      text-align: center;
+    }
+  }
+
+  .img-fluid.right {
+    margin-bottom: 0px;
+  }
+  .intro-left,
+  .intro-right {
+    h5 {
+      font-size: 15px;
+      padding: 15px 0;
+    }
+  }
+
+  /* SECTION 2 */
+  .second-section {
+    article {
+      h5 {
+        border-right: none;
+      }
+    }
+  }
+
+  /* SIDE SECTION */
+
+  .side-section {
+    height: 33px;
+
+    .side-media:first-of-type {
+      margin-top: 5%;
+      width: 33%;
+    }
+    .side-media:nth-of-type(2) {
+      width: 33%;
+    }
+    .side-media:last-of-type {
+      width: 33%;
+    }
+    .side-media {
+      width: 33%;
+      text-align: center;
+      display: inline-block;
+      font-size: 25px;
+
+      .fa {
+      }
+      .fa.fa-facebook {
+      }
+      .fa.fa-instagram {
+      }
+
+      div:nth-of-type(2) {
+        display: none;
+      }
+      div:last-of-type {
+        display: none;
+      }
+    }
+    img {
+      /* A CORRIGER */
+      position: relative;
+      width: 25%;
+      display: none;
+    }
+    .try-now,
+    .logo-text {
+      display: none;
+    }
+  }
+
+  /* SECTION 3 */
+
+  .third-msection h4:first-of-type {
+    padding: 0;
+  }
+  .third-msection {
+    .block-linebr {
+      margin-top: 20px;
+    }
+  }
+  .paddingt {
+    padding-top: 25px;
+  }
 }
