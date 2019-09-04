@@ -354,15 +354,13 @@ div .title-linebr {
 .subcategory {
   font-family: $title-font;
   color: #444444;
-  font-size: 110%;
   text-align: center;
   font-weight: bold;
 }
 #category {
   font-family: $title-font;
-  font-size: 52%;
   color: orange;
-  font-weight: 900;
+  font-weight: bold;
 }
 .img-fluid.tp {
   margin-bottom: 4%;
@@ -373,10 +371,9 @@ div .title-linebr {
 .description {
   font-family: $title-font;
   color: #444444;
-  font-size: 69%;
   line-height: 14px;
   width: 100%;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .col-md-6.right {
@@ -400,10 +397,9 @@ div .title-linebr {
 /*************************FOOTER START*****************************/
 
 .menustyle {
-  font-size: 62%;
   color: $light-font;
-  font-weight: 900;
-  font-style: $title-font;
+  font-family: $title-font;
+  font-weight: bold;
   margin-bottom: -1%;
   margin-left: 5%;
 }
@@ -433,11 +429,9 @@ footer {
       .nav-link {
         width: 110%;
         color: white;
-        font-size: 65%;
-        font-weight: 900;
-        font-style: $title-font;
+        font-family: $title-font;
         padding-left: 0%;
-        font-weight: 900;
+        font-weight: bold;
         margin-bottom: 29%;
         border-bottom: 1px solid rgba(145, 145, 145, 0.1);
       }
@@ -485,11 +479,10 @@ footer {
 
 .pstyle {
   color: white;
-  font-size: 73%;
   width: 152%;
   margin-right: 20%;
-  font-weight: 900;
-  font-style: $title-font;
+  font-family: $title-font;
+  font-weight: bold;
 }
 
 div {
@@ -693,7 +686,7 @@ $breakpoint-tablet: 768px;
   div .row .sub-footer .offset-md-9 {
     margin-left: 35%;
   }
-  .gallery-ig{
+  .gallery-ig {
     display: flex;
     justify-content: center;
   }
@@ -834,6 +827,7 @@ footer .col-md-2 {
 
   /* FOOTER + SUBFOOTER */
   .gallery-ig {
+    display: flex;
     justify-content: center;
   }
   div .row .sub-footer {
