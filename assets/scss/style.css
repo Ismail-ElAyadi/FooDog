@@ -420,16 +420,14 @@ div .title-linebr {
 .subcategory {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  font-size: 110%;
   text-align: center;
   font-weight: bold;
 }
 
 #category {
   font-family: "Open Sans", sans-serif;
-  font-size: 52%;
   color: orange;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .img-fluid.tp {
@@ -441,10 +439,9 @@ div .title-linebr {
 .description {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  font-size: 69%;
   line-height: 14px;
   width: 100%;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .col-md-6.right {
@@ -468,10 +465,9 @@ div .title-linebr {
 /**********************FIRST SECTION END****************************/
 /*************************FOOTER START*****************************/
 .menustyle {
-  font-size: 62%;
   color: #d6d1d1;
-  font-weight: 900;
-  font-style: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   margin-bottom: -1%;
   margin-left: 5%;
 }
@@ -502,11 +498,9 @@ footer .offset-md-3 {
 footer ul .nav-item .nav-link {
   width: 110%;
   color: white;
-  font-size: 65%;
-  font-weight: 900;
-  font-style: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-left: 0%;
-  font-weight: 900;
+  font-weight: bold;
   margin-bottom: 29%;
   border-bottom: 1px solid rgba(145, 145, 145, 0.1);
 }
@@ -549,11 +543,10 @@ footer ul .nav-item .nav-link {
 
 .pstyle {
   color: white;
-  font-size: 73%;
   width: 152%;
   margin-right: 20%;
-  font-weight: 900;
-  font-style: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }
 
 div .row .sub-footer {
@@ -740,6 +733,9 @@ div .row .offset-md-10 .squareup {
     margin-left: 35%;
   }
   .gallery-ig {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -811,6 +807,9 @@ div .row .offset-md-10 .squareup {
   }
   /* FOOTER + SUBFOOTER */
   .gallery-ig {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
