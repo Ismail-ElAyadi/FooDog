@@ -44,4 +44,7 @@ Ismail : pas de problèmes majeurs
 Marah : La mise en forme du header a pris du temps, problème de compréhension du menu hamburger.
 
 
+### Problèmes en commun :
+Le délai a été écourté en plus de l'ajout d'une page. En conséquences nous avons du privilégier des tâches au détriments d'autres.
+
 
