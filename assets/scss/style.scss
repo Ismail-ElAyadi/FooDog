@@ -26,8 +26,10 @@
     display: none;
   }
 
-  #social-links {
-    padding-top: 11px;
+  header {
+    #social-links {
+      padding-top: 11px !important;
+    }
   }
 }
 
@@ -338,7 +340,6 @@ div .title-linebr {
     }
   }
   .square-up {
-    margin-top: 55%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -493,7 +494,7 @@ footer {
 
 div {
   .row {
-    .sm {
+    .sub-footer {
       background-color: #3b3030;
       display: flex;
       height: 22%;
@@ -677,6 +678,7 @@ $breakpoint-tablet: 768px;
   .paddingt {
     padding-top: 25px;
   }
+
   /*** END SECTION ***/
 
   footer {

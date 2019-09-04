@@ -17,8 +17,8 @@
     margin-bottom: 0%; }
   .grandecran {
     display: none; }
-  #social-links {
-    padding-top: 11px; } }
+  header #social-links {
+    padding-top: 11px !important; } }
 
 @media only screen and (min-width: 768px) {
   .burger {
@@ -265,7 +265,6 @@ div .title-linebr {
       .third-msection .pages .flex-pages a:last-of-type {
         padding: 0.15em; }
   .third-msection .square-up {
-    margin-top: 55%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around; }
@@ -383,31 +382,31 @@ footer {
   font-weight: 900;
   font-style: "Open Sans", sans-serif; }
 
-div .row .sm {
+div .row .sub-footer {
   background-color: #3b3030;
   display: flex;
   height: 22%; }
-  div .row .sm .offset-md-9 {
+  div .row .sub-footer .offset-md-9 {
     margin-left: 73%;
     margin-top: 1%; }
-    div .row .sm .offset-md-9 .fa {
+    div .row .sub-footer .offset-md-9 .fa {
       background-color: #444444;
       color: #f2efef;
       padding: 6%;
       border-radius: 50%;
       margin-right: 2%; }
-    div .row .sm .offset-md-9 .fa.fa:hover {
+    div .row .sub-footer .offset-md-9 .fa.fa:hover {
       text-decoration: none; }
-    div .row .sm .offset-md-9 .fa-facebook {
+    div .row .sub-footer .offset-md-9 .fa-facebook {
       padding-left: 8%;
       padding-right: 8%; }
-    div .row .sm .offset-md-9 .fa-instagram {
+    div .row .sub-footer .offset-md-9 .fa-instagram {
       padding-left: 7%;
       padding-right: 7%; }
-  div .row .sm .fa-facebook {
+  div .row .sub-footer .fa-facebook {
     padding-left: 8%;
     padding-right: 8%; }
-  div .row .sm .fa-instagram {
+  div .row .sub-footer .fa-instagram {
     padding-left: 7%;
     padding-right: 7%; }
 
