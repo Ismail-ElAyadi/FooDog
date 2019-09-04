@@ -736,6 +736,12 @@ div .row .offset-md-10 .squareup {
   div .row .sm {
     height: 5%;
   }
+  div .row .sub-footer {
+    height: 5%;
+  }
+  div .row .sub-footer .offset-md-9 {
+    margin-left: 35%;
+  }
 }
 
 /**************** MEDIA QUERIES SMARTPHONE ****************/
@@ -809,6 +815,9 @@ div .row .offset-md-10 .squareup {
   }
   div .row .sub-footer {
     height: 5%;
+  }
+  div .row .sub-footer div .row .sub-footer .offset-md-9 {
+    margin-left: 35%;
   }
 }
 /*# sourceMappingURL=style.css.map */
