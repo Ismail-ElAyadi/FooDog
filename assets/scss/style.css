@@ -739,6 +739,11 @@ div .row .offset-md-10 .squareup {
   div .row .sub-footer .offset-md-9 {
     margin-left: 35%;
   }
+  .gallery-ig {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 /**************** MEDIA QUERIES SMARTPHONE ****************/
