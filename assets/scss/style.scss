@@ -445,7 +445,7 @@ footer {
   }
 }
 
-.gallery {
+.gallery-ig {
   div {
     display: flex;
     padding: 1% !important;
@@ -686,9 +686,6 @@ $breakpoint-tablet: 768px;
       display: none;
     }
   }
-  div .row .sm {
-    height: 5%;
-  }
 
   div .row .sub-footer {
     height: 5%;
@@ -792,8 +789,5 @@ $breakpoint-tablet: 768px;
   }
   div .row .sub-footer {
     height: 5%;
-    div .row .sub-footer .offset-md-9 {
-      margin-left: 35%;
-    }
   }
 }
