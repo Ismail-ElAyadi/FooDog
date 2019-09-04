@@ -1,5 +1,42 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
 
+@media only screen and (max-width: 767px) {
+  .navbar-collapse.collapse.in {
+    display: block;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    margin: 0% auto;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.6em;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    position: relative;
+  }
+  .navbar {
+    margin-bottom: 0%;
+  }
+
+  .grandecran {
+    display: none;
+  }
+
+  #social-links {
+    padding-top: 11px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+}
+
 /**** FONT VARIABLES ****/
 $main-font: "Crimson Text", serif;
 $title-font: "Open Sans", sans-serif;
@@ -312,9 +349,6 @@ div .title-linebr {
 
 /*FIRST SECTION STYLE START*/
 
-.sec1 {
-}
-
 /*LEFT PICTURE START*/
 .subcategory {
   font-family: $title-font;
@@ -385,8 +419,7 @@ div .title-linebr {
 footer {
   padding-top: 3%;
   background-color: $dark-font;
-  .col-md-12 {
-  }
+
   .col-md-2 {
     margin-right: 10%;
   }
