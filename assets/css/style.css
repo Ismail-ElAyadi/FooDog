@@ -17,7 +17,8 @@
     margin-bottom: 0%; }
   .grandecran {
     display: none; }
-  header #social-links {
+  header #social-links,
+  header #social-l {
     padding-top: 11px !important; } }
 
 @media only screen and (min-width: 768px) {
@@ -98,16 +99,20 @@ header {
         border-top-right-radius: none; }
       header section:first-child .nav-tabs .nav-link:hover {
         border: none; }
-  header #social-links {
+  header #social-links,
+  header #social-l {
     display: flex;
     flex: none;
     justify-content: center;
     padding: 50px 25px; }
-    header #social-links .fa {
+    header #social-links .fa,
+    header #social-l .fa {
       padding: 5px; }
-    header #social-links .fa:hover {
+    header #social-links .fa:hover,
+    header #social-l .fa:hover {
       text-decoration: none; }
-    header #social-links .fa.fa-instagram::before {
+    header #social-links .fa.fa-instagram::before,
+    header #social-l .fa.fa-instagram::before {
       padding-right: 10px;
       border-right: 1px solid #d6d1d1; }
 
